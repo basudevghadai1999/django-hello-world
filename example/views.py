@@ -12,6 +12,10 @@ def index(request):
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Backend Developer Portfolio</title>
+            <!-- Content Security Policy -->
+            <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; script-src 'self' https://cdn.jsdelivr.net;">
+            
+            <!-- Bootstrap CSS -->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJ4QJ2nK6FLp4R4X9n6Xg6Vf5X7cm5g6z3ZSH1iF3BzV5V9UjFplzSkIRs4u" crossorigin="anonymous">
         </head>
         <body>
