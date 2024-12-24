@@ -11,7 +11,7 @@ def index(request):
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Backend Developer Portfolio</title>
+            <title>Basudev Ghadai - Backend Developer Portfolio</title>
             <!-- Content Security Policy -->
             <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; script-src 'self' https://cdn.jsdelivr.net;">
             
@@ -21,15 +21,15 @@ def index(request):
         <body>
             <div class="container">
                 <header class="my-4 text-center">
-                    <h1>John Doe</h1>
-                    <p class="lead">Backend Developer</p>
+                    <h1>Basudev Ghadai</h1>
+                    <p class="lead">Python Backend Developer | AI Enthusiast</p>
                     <p>The current time is {now}.</p>
                 </header>
 
                 <!-- About Me Section -->
                 <section class="mb-5">
                     <h2>About Me</h2>
-                    <p>Hello, I'm John Doe, a passionate backend developer with a strong background in server-side technologies. I specialize in designing scalable and efficient APIs, working with databases, and integrating third-party services. My goal is to create robust backend systems that power high-performing applications.</p>
+                    <p>Hello, I'm Basudev Ghadai, a skilled Python Backend Developer with experience in Odoo, Flask, AI/ML, and Generative AI. My expertise lies in building scalable backend solutions, integrating APIs, and developing robust systems that solve complex problems efficiently.</p>
                 </section>
 
                 <!-- Skills Section -->
@@ -40,9 +40,9 @@ def index(request):
                             <h4>Programming Languages</h4>
                             <ul>
                                 <li>Python</li>
-                                <li>JavaScript (Node.js)</li>
-                                <li>Java</li>
-                                <li>PHP</li>
+                                <li>JavaScript</li>
+                                <li>HTML/CSS</li>
+                                <li>SQL</li>
                             </ul>
                         </div>
                         <div class="col-md-4">
@@ -50,8 +50,8 @@ def index(request):
                             <ul>
                                 <li>Django</li>
                                 <li>Flask</li>
-                                <li>Express.js</li>
-                                <li>Spring Boot</li>
+                                <li>Odoo</li>
+                                <li>Generative AI (LangChain, Hugging Face)</li>
                             </ul>
                         </div>
                         <div class="col-md-4">
@@ -60,7 +60,6 @@ def index(request):
                                 <li>PostgreSQL</li>
                                 <li>MySQL</li>
                                 <li>MongoDB</li>
-                                <li>Redis</li>
                             </ul>
                         </div>
                     </div>
@@ -70,22 +69,22 @@ def index(request):
                 <section class="mb-5">
                     <h2>Experience</h2>
                     <div class="mb-3">
-                        <h4>Backend Developer at TechCorp</h4>
-                        <p><strong>January 2021 – Present</strong></p>
+                        <h4>Software Developer at Sapat International Pvt Ltd</h4>
+                        <p><strong>April 2024 – Present</strong></p>
                         <ul>
-                            <li>Designed and implemented RESTful APIs using Django and Flask</li>
-                            <li>Optimized database queries for better performance with PostgreSQL</li>
-                            <li>Collaborated with frontend developers to ensure seamless integration of backend services</li>
-                            <li>Integrated third-party payment and shipping APIs</li>
+                            <li>Developed and maintained web applications using Python and Flask</li>
+                            <li>Customized Odoo ERP modules based on business requirements</li>
+                            <li>Worked with OpenedX to create and customize LMS features</li>
+                            <li>Collaborated with cross-functional teams to deliver scalable solutions</li>
                         </ul>
                     </div>
                     <div class="mb-3">
-                        <h4>Junior Backend Developer at CodeWorks</h4>
-                        <p><strong>July 2018 – December 2020</strong></p>
+                        <h4>Python Backend Developer at Confluex Marketing Pvt Ltd</h4>
+                        <p><strong>May 2022 – November 2022</strong></p>
                         <ul>
-                            <li>Developed backend services using Node.js and Express</li>
-                            <li>Created database schemas and wrote migration scripts for MySQL</li>
-                            <li>Maintained and improved existing API endpoints</li>
+                            <li>Wrote scalable code to improve application responsiveness</li>
+                            <li>Integrated user-facing elements into backend services</li>
+                            <li>Developed APIs for seamless communication between systems</li>
                         </ul>
                     </div>
                 </section>
@@ -96,31 +95,25 @@ def index(request):
                     <div class="row">
                         <div class="col-md-4 mb-3">
                             <div class="card">
-                                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Project 1">
                                 <div class="card-body">
-                                    <h5 class="card-title">Project Management API</h5>
-                                    <p class="card-text">A RESTful API built with Django to manage project tasks, deadlines, and users. It integrates with Slack for notifications.</p>
-                                    <a href="#" class="btn btn-primary">View Project</a>
+                                    <h5 class="card-title">QR4Order API</h5>
+                                    <p class="card-text">Developed an API for streamlining order management in restaurants.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 mb-3">
                             <div class="card">
-                                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Project 2">
                                 <div class="card-body">
-                                    <h5 class="card-title">E-commerce Backend</h5>
-                                    <p class="card-text">A scalable backend system built with Node.js and MongoDB to support an online store, including user authentication and product management.</p>
-                                    <a href="#" class="btn btn-primary">View Project</a>
+                                    <h5 class="card-title">OpenedX LMS Platform</h5>
+                                    <p class="card-text">Customized and deployed an LMS using OpenedX, enhancing e-learning experiences.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 mb-3">
                             <div class="card">
-                                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Project 3">
                                 <div class="card-body">
-                                    <h5 class="card-title">Weather API</h5>
-                                    <p class="card-text">A weather information API built using Flask that provides current weather data using a third-party service, with caching via Redis.</p>
-                                    <a href="#" class="btn btn-primary">View Project</a>
+                                    <h5 class="card-title">Self-Driving Car Lane Detection</h5>
+                                    <p class="card-text">Implemented a lane detection system using OpenCV, deployed with Streamlit.</p>
                                 </div>
                             </div>
                         </div>
@@ -130,11 +123,11 @@ def index(request):
                 <!-- Contact Section -->
                 <section>
                     <h2>Contact</h2>
-                    <p>If you're interested in working with me, feel free to reach out through the following:</p>
+                    <p>Interested in working with me? Feel free to reach out:</p>
                     <ul>
-                        <li>Email: johndoe@example.com</li>
-                        <li>LinkedIn: <a href="https://www.linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></li>
-                        <li>GitHub: <a href="https://github.com/johndoe">github.com/johndoe</a></li>
+                        <li>Email: basudev.ghadai@example.com</li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/basudev-ghadai">linkedin.com/in/basudev-ghadai</a></li>
+                        <li>GitHub: <a href="https://github.com/biplab-tech-guy">github.com/biplab-tech-guy</a></li>
                     </ul>
                 </section>
             </div>
